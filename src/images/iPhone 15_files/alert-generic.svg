@@ -1,0 +1,9 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="generic/alert">
+<path id="Vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M10 3.54839C6.43687 3.54839 3.54839 6.43687 3.54839 10C3.54839 13.5631 6.43687 16.4516 10 16.4516C13.5631 16.4516 16.4516 13.5631 16.4516 10C16.4516 6.43687 13.5631 3.54839 10 3.54839ZM2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10Z" fill="#9BA0B1"/>
+<g id="exclamation">
+<path id="Vector" d="M10.0037 13.2765L10.0037 9.57925" stroke="#9BA0B1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M10.0037 6.72351L9.99627 6.72351" stroke="#9BA0B1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

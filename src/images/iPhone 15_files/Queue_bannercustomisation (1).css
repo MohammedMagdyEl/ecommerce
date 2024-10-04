@@ -1,0 +1,24 @@
+#queuetime:before {
+    content: 'All our agents are currently assisting other customers. Please bear with us; one of our amazing noonCare agents will be with you shortly' !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    color: #888 !important;
+}
+
+#queuetime {
+    position: relative !important;
+    color: transparent !important;
+}
+
+.queinfo-banr ~ #msgmaindiv .zsiq_transferdiv {
+    display: none !important;
+}
+#queuetime {
+    position: relative !important;
+    color: transparent !important;
+}
+#queuetime {
+    display: none !important;
+}
+

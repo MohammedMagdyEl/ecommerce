@@ -1,0 +1,150 @@
+/* Container for the cart */
+.cart {
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  /* background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Heading for the cart */
+.cart h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.lift-Section {
+  width: 70%;
+  height: 200px;
+}
+/* Container for each cart item */
+.cart-item {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+/* Image for each cart item */
+.cart-item .imge {
+  width: 40%;
+}
+
+.cart-item .imge img {
+  width: 40%;
+
+  object-fit: cover;
+  /* padding: 15px; */
+  border-radius: 4px;
+  padding: 10px;
+}
+.cart .description {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px 3px;
+}
+
+/* Title and details for each cart item */
+.cart-item .description h3 {
+  font-size: 1.2rem;
+  color: #333;
+  height: 40px;
+  overflow: hidden;
+}
+
+.cart-item .description p {
+  font-size: 0.9rem;
+  color: #666;
+  height: 50px;
+  overflow: hidden;
+}
+
+.cart-item h5 {
+  font-size: 1rem;
+  color: #000;
+  margin-top: 5px;
+  width: 100%;
+  text-align: end;
+}
+
+/* Message when the cart is empty */
+.cart p {
+  text-align: center;
+  font-size: 18px;
+  color: #999;
+}
+
+.cart .btn-cart-delet,
+.btn-cart-wishlist {
+  font-size: 1.2rem;
+  padding: 2px;
+  width: 40%;
+  display: flex;
+  gap: 3px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.cart .right-section{
+  position: absolute;
+  width: 25%;
+  left: 70%;
+  top: 200px;
+  
+
+
+}
+.cart .right-section .order-summary{
+ background-color: #f7f7fa;
+ padding: 10px;
+
+ 
+
+}
+.cart .right-section .order-summary h3{
+  font-size: 1.5rem;
+  color: var(--text-color);
+  text-align: center;
+  padding: 5px;
+
+
+}
+.cart .right-section .order-summary .coupon-code{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.cart .right-section .order-summary .coupon-code input{
+  width: 75%;
+  height: 50px;
+  border-radius:5px 0 0 5px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  
+}
+
+.cart .right-section .order-summary .coupon-code button{
+  width: 25%;
+  border-radius: 0 5px 5px 0;
+  background-color: #3866df;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+}

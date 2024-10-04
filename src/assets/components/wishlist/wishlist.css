@@ -1,0 +1,9 @@
+.cart .cart-item .description .btn .add-to-card {
+    width: 40%;
+    height: 30px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s;
+  }
